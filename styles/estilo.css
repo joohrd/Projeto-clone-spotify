@@ -15,6 +15,7 @@ body {
     linear-gradient(50deg, #ff4169, #7c26f8);
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 /*=============== Barra de Navegacao =================*/
@@ -93,11 +94,38 @@ nav.navbar-transparente {
   padding-bottom: 20px;
 }
 
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
 .albuns {
   padding: 10px 0px 10px 0px;
 }
 
+.rotacionar {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  padding-left: 80px;
+}
+
+footer {
+  background: black;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+.item-rede-social {
+  float: right;
+}
+
 /*============== Tipogragia =================*/
+li {
+  list-style-type: none;
+}
+
 h1 {
   font-size: 100px;
   font-weight: 900;
@@ -117,7 +145,17 @@ h3 {
   letter-spacing: -0.04em;
 }
 
+#rodape h4 {
+  color: #919496;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 #servicos h2,
-h3 {
+#servicos h3 {
   color: #7c25f8;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
 }
